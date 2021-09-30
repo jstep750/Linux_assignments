@@ -6,7 +6,8 @@ then
     echo "두 개의 인자를 입력해주세요!"
 elif [ $1 -lt 1 ] || [ $2 -lt 1 ]
 then
-    echo "인자는 1보다 커야 합니다"
+    echo "인자[$1 $2]는 모두 1이상이어야 합니다."
+    echo "다시 입력해주세요!"
 else
     echo ""
     for ((row=1 ; row <= $1 ; row++));
