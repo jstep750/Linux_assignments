@@ -67,30 +67,53 @@ modules.order
 #
 /*.spec
 
+################################
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+#############################
 #
 # Debian directory (make deb-pkg)
-#
+
 /debian/
-/arch/
-/block/
-/certs/
-/crypto/
-/drivers/
-/fs/
-/include/
-/init/
-/ipc/
-/kernel/
-/lib/
-/mm/
-/net/
-/samples/
-/scripts/
-/security/
-/sound/
-/tools/
-/usr/
-/virt/
+
+#/arch/
+#/block/
+#/certs/
+#/crypto/
+#/drivers/
+#/fs/
+#/include/
+#/init/
+#/ipc/
+#/kernel/
+#/lib/
+#/mm/
+#/net/
+#/samples/
+#/scripts/
+#/security/
+#/sound/
+#/tools/
+#/usr/
+#/virt/
 
 
 #
